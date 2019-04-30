@@ -41,3 +41,15 @@ button:hover {
   background-color: orange;
   color: #337AB7;
 }
+
+/* Mobile-first: at screens under 470px wide, the following rules apply*/
+@media only screen and (max-width: 470px){
+	.ui.form .field>label {
+		padding-bottom: 10px;
+		color: white;
+		font-size: 20px;
+	}
+}
+
+
+

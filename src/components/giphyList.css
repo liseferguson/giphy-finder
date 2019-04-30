@@ -6,4 +6,15 @@
 
 .image-list img {
 	width: 275px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Mobile-first: at screens under 470px wide, the following rules apply*/
+@media only screen and (max-width: 470px){
+	.image-list img {
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	}
 }
