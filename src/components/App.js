@@ -22,7 +22,7 @@ state = { images: [] };
 
 	render(){
 		return (
-			<div className="ui container" style={{ marginTop: '10px' }}>
+			<div className="ui container">
 				<SearchBar onSubmit={this.onSearchSubmit}/>
 				<ImageList images={this.state.images} />
 			</div>

@@ -19,12 +19,12 @@ class SearchBar extends React.Component {
 					<div className="field">
 						<label className="label" for="searchTerms">Search for a GIF:</label>
 						<input 
-							id="name" 
+							id="searchTerms" 
 							type="text" 
 							value={this.state.term} 
 							onChange={e => this.setState({ term: e.target.value })}
 						/>
-						<button style={{ backgroundColor: 'blue', color: 'white' }}>Search</button>
+						<button>Search</button>
 					</div>
 				</form>
 			</div>

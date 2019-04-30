@@ -1,0 +1,43 @@
+*{
+	background-color: #333;
+}
+
+body {
+    font-family: 'Monda', sans-serif;
+    font-size: 14px;
+    background-color: #333; 
+}
+
+.label, .field, .ui.segment {
+	background-color: #595959;
+}
+
+.ui.segment {
+	height: 150px;
+}
+
+.ui.form .field>label {
+	padding-bottom: 20px;
+	color: white;
+	font-size: 50px;
+}
+
+.ui.segment:first-child {
+ 	margin-top: 20px;
+}
+
+#searchTerms {
+	margin-bottom: 20px;
+}
+
+button {
+	color: white;
+	background-color: #337AB7;
+	font-size: 18px;
+	border-radius: 5px; 
+}
+
+button:hover {
+  background-color: orange;
+  color: #337AB7;
+}
