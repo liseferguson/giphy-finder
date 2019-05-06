@@ -17,6 +17,7 @@ state = { images: [] };
 				
 			 }
 		});
+//set state to current array of images returned from response
 		this.setState({ images: response.data.data });
 	}
 
